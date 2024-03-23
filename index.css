@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.image{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://themewagon.github.io/travela/img/carousel-3.jpg");
+    /* background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)); */
+    background-size: cover;
+    background-position: center;
+   
+}
+.header{
+    width: 100vw;
+    background-color: #13357b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: #FFFFFF;
+    padding: 10px 40px;
+    
+}
+.leftpart{
+    display: flex;
+    align-items: center;
+}
+.leftpart i{
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 0px 8px 0px 0px;
+    font-size: 16px;
+    
+}
+.rightpart{
+    display: flex;
+    align-items: center;
+    
+}
+.element {
+    display: flex;
+    align-items: center;
+    
+}
+.element i{
+    font-size: 16px;
+    margin: 0px 8px 0px 0px;
+    
+}
+.element h1,.span1{
+    font-size: 16px;
+    margin: 0px 8px 0px 0px;
+    
+}
+.headertwo{
+    width: 100vw;
+    border-bottom: 1px solid gray;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.leftside{
+    display: flex;
+    align-items: center;
+    
+    
+    
+    
+
+}
+.leftside i,.span2{
+    margin: 0px 8px 0px 0px;
+    font-size: 40px;
+    
+    
+    
+    color: #FFFFFF;
+    
+
+}
+.rightside{
+
+}
+.rightside ul{
+    display: flex;
+    list-style: none;
+    /* align-items: center; */
+}
+.rightside ul li{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0px 8px 0px 0px;
+    display: flex;
+    /* align-items: center; */
+}
+
