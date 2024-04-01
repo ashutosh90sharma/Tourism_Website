@@ -1,160 +1,166 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.image{
-    width: 100vw;
-    height: 100vh;
-    background-image: url("https://themewagon.github.io/travela/img/carousel-3.jpg");
-    /* background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)); */
-    background-size: cover;
-   
-    
-   
+
+.section {
+    display: block;
 }
-.header{
-    width: 100vw;
+
+.header {
     background-color: #13357b;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    color: #FFFFFF;
-    padding: 10px 40px;
-    
+    padding: 10px 20px;
+
 }
-.leftpart{
+
+.headerbox1 {
     display: flex;
-    align-items: center;
+    /* justify-content: space-between; */
+
+
 }
-.leftpart i{
-    border: 1px solid white;
-    border-radius: 40px;
+
+.headerbox1 i {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
     padding: 10px;
-    margin: 0px 8px 0px 0px;
-    font-size: 16px;
-    
+
+    margin: 0px 5px 0px 0px;
+
+
 }
-.rightpart{
+
+.headerbox2 {
     display: flex;
     align-items: center;
-    
+    flex-wrap: wrap;
+
 }
-.element {
-    display: flex;
-    align-items: center;
-    
-}
-.element i{
-    font-size: 16px;
-    margin: 0px 8px 0px 0px;
-    
-}
-.element h1,.span1{
-    font-size: 16px;
-    margin: 0px 8px 0px 0px;
-    
-}
-.rightpart select{
-    background: transparent;
-    border: none;
+
+.headerbox2 i,
+.text {
     color: #FFFFFF;
+    margin: 5px;
+    font-size: 16px;
 }
-.headertwo{
-    width: 100vw;
-    border-bottom: 1px solid gray;
-    padding: 0px 40px;
+
+.headerbox2 select {
+    border: none;
+    background: transparent;
+}
+
+.section2 {
+    min-height: 100vh;
+    background-image: url("https://themewagon.github.io/travela/img/carousel-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.header2 {
     display: flex;
-   
+    flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0px 20px;
     align-items: center;
 
-    
-}
-.leftside{
-    display: flex;
-    align-items: center;
-    
-    
-    
-    
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+
+
+
+
 
 }
-.leftside i,.span2{
-    margin: 0px 8px 0px 0px;
-    font-size: 40px;
-    
-    
-    
+
+.leftbox {
+
     color: #FFFFFF;
+
+    font-size: 36.88px;
+
+}
+
+.leftbox i {
+
+}
+
+.rightbox {
+    
     
 
 }
-.rightside{
-    display: flex;
 
-}
-.rightside ul{
-    display: flex;
+.rightbox ul {
     list-style: none;
-    
-    align-items: center;
-}
-.rightside ul li{
-    font-family: sans-serif;
-    font-size: 16px;
-    color: #FFFFFF;
-    margin: 0px 10px 0px 20px;
     display: flex;
-    font-weight: 400;
-    
-    /* align-items: center; */
+    flex-wrap: wrap;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 17px;
+
 }
-.rightside ul li:nth-child(1){
+
+.rightbox ul li {
+    font-size: 20px;
+    margin-right: 20px;
+    transition: 2s;
+}
+.rightbox ul li:nth-child(1){
     background-color: #13357b;
-    padding: 40px 10px;
+    padding: 30px 10px;
 }
-.rightside select{
+.rightbox ul li select{
     background: transparent;
     border: none;
     color: #FFFFFF;
-}
-.rightside  button{
-    border: none;
     
+}
+.rightbox ul li button{
+    cursor: pointer;
+    border: none;
     background-color: #13357b;
     color: #FFFFFF;
-    font-size: 16px;
+    padding: 20px 30px 20px 30px;
     border-radius: 30px;
-    padding: 12px 20px;
-    
 }
-.mid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+
+
+li:hover{
+   
+    cursor: pointer;
+   
+    
 }
 .center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid yellow; */
+    margin-top: 50px;
+    padding: 30px;
     color: #FFFFFF;
+    
+    
+}
+.content{
+    padding: 30px;
     text-align: center;
-    padding: 50px;
+    
     
 }
-.center h1,h2,p,button{
-    padding: 20px 0px;
-}
-.center button{
-    border: none;
-    padding: 18px 54px;
-    border-radius: 50rem;
-    background-color: #13357b;
+.content button{
     color: #FFFFFF;
-    font-weight: 600;
+    background-color: #13357b;
+    font-size: 16px;
+    padding: 16px 48px;
+    border: none;
+    border-radius: 30px;
 }
-.last{
-    
-}
-
